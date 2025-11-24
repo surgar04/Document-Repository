@@ -1,0 +1,27 @@
+project:
+  id: "PRJ-2025-001"
+  name: "衍玄机"
+  description: "2D修仙游戏"
+  version: "1.0.0"
+  status: "active"
+  
+  timeline:
+    created: "2025-11-24T18:16:00+08:00"
+    start_date: "2025-11-25"
+    deadline: "2026-02-28"
+    last_updated: "2025-11-24T18:16:00+08:00"
+
+configuration:
+  repository:
+    type: "git"
+    url: "https://github.com/username/project-name"
+    branch: "main"
+
+documentation:
+  
+  
+metadata:
+  file_version: "1.0"
+  created: "2025-11-24T18:16:00+08:00"
+  last_modified: "2025-11-24T18:16:00+08:00"
+  schema: "project-data-v1"
