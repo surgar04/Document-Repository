@@ -1,27 +1,27 @@
-project:
-  id: "PRJ-2025-001"
-  name: "衍玄机"
-  description: "2D修仙游戏"
-  version: "1.0.0"
-  status: "active"
-  
-  timeline:
-    created: "2025-11-24T18:16:00+08:00"
-    start_date: "2025-11-25"
-    deadline: "2026-02-28"
-    last_updated: "2025-11-24T18:16:00+08:00"
-
 configuration:
   repository:
-    type: "git"
-    url: "https://github.com/username/project-name"
-    branch: "main"
-
+    branch: main
+    type: git
+    url: https://github.com/username/project-name
 documentation:
-  
-  
+- author: ''
+  name: 衍玄机技术文档.md
+  type: documents
+  uploaded_at: '2025-11-26 17:34:46'
+  url: https://raw.githubusercontent.com/surgar04/Document-Repository/main/项目-衍玄机/resources/documents/衍玄机技术文档.md
 metadata:
-  file_version: "1.0"
-  created: "2025-11-24T18:16:00+08:00"
-  last_modified: "2025-11-24T18:16:00+08:00"
-  schema: "project-data-v1"
+  created: '2025-11-24T18:16:00+08:00'
+  file_version: '1.0'
+  last_modified: '2025-11-24T18:16:00+08:00'
+  schema: project-data-v1
+project:
+  description: 2D修仙游戏
+  id: PRJ-2025-001
+  name: 衍玄机
+  status: active
+  timeline:
+    created: '2025-11-24T18:16:00+08:00'
+    deadline: '2026-02-28'
+    last_updated: '2025-11-24T18:16:00+08:00'
+    start_date: '2025-11-25'
+  version: 1.0.0
