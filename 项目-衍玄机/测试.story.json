@@ -1,0 +1,141 @@
+{
+  "id": "项目-衍玄机/测试.story.json",
+  "nodes": [
+    {
+      "id": "7b937414-29aa-47cf-a233-892480a37a66",
+      "type": "scene",
+      "position": {
+        "x": 48.10823223903333,
+        "y": 207.12680114571668
+      },
+      "data": {
+        "label": "空间站",
+        "content": "新手村",
+        "speaker": "",
+        "choices": [],
+        "condition": "",
+        "variable": "",
+        "value": "",
+        "tags": [],
+        "type": "scene"
+      },
+      "measured": {
+        "width": 220,
+        "height": 104
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "9091d517-3a57-45b8-8b66-c42c28a80cc5",
+      "type": "dialogue",
+      "position": {
+        "x": 213.4285194343849,
+        "y": 378.100290410792
+      },
+      "data": {
+        "label": "New Dialogue",
+        "content": "<p>好久不见呀，开拓者。欢迎回到「黑塔」空间站！</p>",
+        "speaker": "艾丝妲",
+        "choices": [],
+        "condition": "",
+        "variable": "",
+        "value": "",
+        "tags": [],
+        "type": "dialogue"
+      },
+      "measured": {
+        "width": 300,
+        "height": 125
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "c199dd0f-1cdf-4442-be1a-e7fdf31c9646",
+      "type": "dialogue",
+      "position": {
+        "x": -147.38875968960622,
+        "y": 383.91688792223516
+      },
+      "data": {
+        "label": "New Dialogue",
+        "content": "<p>嘿嘿，我专程约在禁闭舱段见面，想必…你应该能猜到找你有什么事了吧？</p>",
+        "speaker": "艾丝妲",
+        "choices": [],
+        "condition": "",
+        "variable": "",
+        "value": "",
+        "tags": [],
+        "type": "dialogue"
+      },
+      "measured": {
+        "width": 300,
+        "height": 125
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "1a858588-3811-4d3e-b106-70145506a438",
+      "type": "choice",
+      "position": {
+        "x": -110.32911048060298,
+        "y": 586.3935616714091
+      },
+      "data": {
+        "label": "Choice",
+        "content": "",
+        "speaker": "",
+        "choices": [
+          {
+            "id": "opt1",
+            "label": " 我知道了，你想找我借钱。",
+            "action": "choice=1"
+          },
+          {
+            "id": "2a8db7ba-70f1-4245-9c44-da8612b7636d",
+            "label": " …不会要抓我去做实验吧！",
+            "action": "choice=2"
+          },
+          {
+            "id": "45449f5f-080e-4b0e-ae57-c187fb8451b8",
+            "label": " 莫非…和造物们有关系？",
+            "action": "choice=3"
+          }
+        ],
+        "condition": "",
+        "variable": "",
+        "value": "",
+        "tags": [],
+        "type": "choice"
+      },
+      "measured": {
+        "width": 200,
+        "height": 181
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "7b937414-29aa-47cf-a233-892480a37a66",
+      "target": "9091d517-3a57-45b8-8b66-c42c28a80cc5",
+      "id": "xy-edge__7b937414-29aa-47cf-a233-892480a37a66-9091d517-3a57-45b8-8b66-c42c28a80cc5"
+    },
+    {
+      "source": "9091d517-3a57-45b8-8b66-c42c28a80cc5",
+      "target": "c199dd0f-1cdf-4442-be1a-e7fdf31c9646",
+      "id": "xy-edge__9091d517-3a57-45b8-8b66-c42c28a80cc5-c199dd0f-1cdf-4442-be1a-e7fdf31c9646"
+    },
+    {
+      "source": "c199dd0f-1cdf-4442-be1a-e7fdf31c9646",
+      "target": "1a858588-3811-4d3e-b106-70145506a438",
+      "id": "xy-edge__c199dd0f-1cdf-4442-be1a-e7fdf31c9646-1a858588-3811-4d3e-b106-70145506a438"
+    }
+  ],
+  "variables": {},
+  "version": "1.0",
+  "timestamp": 1765462821700
+}
